@@ -1,4 +1,5 @@
 import React from 'react'
+import { SEO } from '../components/SEO'
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { AboutSection } from '../components/AboutSection'
@@ -11,6 +12,12 @@ import { Footer } from '../components/Footer'
 export const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
+      <SEO
+        title="Online Psychotherapy in Florida & NJ | Logos Psychotherapy"
+        description="Psychotherapy in Miami, FL and online in Florida and New Jersey. Individual therapy with an EMDRIA certified therapist for trauma, grief, and related stress."
+        canonicalUrl="/"
+      />
+
       {/* Top Navigation */}
       <Navbar currentPath="/" logoSrc="/logoImage.png" theme="light" />
 

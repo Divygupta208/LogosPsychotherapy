@@ -1,17 +1,20 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { SEO } from '../components/SEO'
 import { Navbar } from '../components/Navbar'
 import { FaqMainSection } from '../components/FaqMainSection'
 import { ContactCta } from '../components/ContactCta'
 import { Footer } from '../components/Footer'
 
 export const Faq: React.FC = () => {
-  // Set page title for branding and SEO
-  useEffect(() => {
-    document.title = 'Frequently Asked Questions | Virtual Therapy | LOGOS Psychotherapy'
-  }, [])
-
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
+      <SEO
+        title="Therapy FAQs | Logos Psychotherapy"
+        description="Find answers to common therapy questions, including what psychotherapy is, what therapy costs, confidentiality, and what to expect in your first session."
+        canonicalUrl="/faq"
+        ogImage="https://logos-psychotherapy.com/FAQ.jpg.jpeg"
+      />
+
       {/* Top Navigation Bar with active FAQ tab (Dark Hero Theme) */}
       <Navbar currentPath="/faq" logoSrc="/logoImage.png" theme="dark" />
 

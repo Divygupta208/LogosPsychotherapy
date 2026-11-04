@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { SEO } from '../components/SEO'
 import { Navbar } from '../components/Navbar'
 import { EmdrHero } from '../components/EmdrHero'
 import { EmdrOnlineSection } from '../components/EmdrOnlineSection'
@@ -7,13 +8,15 @@ import { ContactCta } from '../components/ContactCta'
 import { Footer } from '../components/Footer'
 
 export const EMDR: React.FC = () => {
-  // Set page title for branding and SEO
-  useEffect(() => {
-    document.title = 'EMDR Therapy Online | Trauma, Anxiety & Healing | LOGOS Psychotherapy'
-  }, [])
-
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
+      <SEO
+        title="EMDR Therapy in New Jersey & Florida | Logos Psychotherapy"
+        description="EMDR therapy for trauma, PTSD, and anxiety with an EMDRIA Certified Therapist™. Schedule a consultation."
+        canonicalUrl="/emdr-therapy"
+        ogImage="https://logos-psychotherapy.com/EMDR%201.jpg.jpeg"
+      />
+
       {/* Top Navigation Bar with active EMDR Therapy tab */}
       <Navbar currentPath="/emdr-therapy" logoSrc="/logoImage.png" theme="light" />
 

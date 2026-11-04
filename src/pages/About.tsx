@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { SEO } from '../components/SEO'
 import { Navbar } from '../components/Navbar'
 import { AboutHero } from '../components/AboutHero'
 import { AboutMeSection } from '../components/AboutMeSection'
@@ -8,13 +9,16 @@ import { ContactCta } from '../components/ContactCta'
 import { Footer } from '../components/Footer'
 
 export const About: React.FC = () => {
-  // Ensure page title is updated for SEO and branding
-  useEffect(() => {
-    document.title = 'About Me | Moussia Zaklikovsky | LOGOS Psychotherapy'
-  }, [])
-
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
+      <SEO
+        title="Psychotherapist in New Jersey & Florida | Logos Psychotherapy"
+        description="Meet Moussia Zaklikovsky, LCSW, an EMDRIA Certified Therapist and licensed psychotherapist in New Jersey, Florida and New York, offering online therapy."
+        canonicalUrl="/about"
+        ogType="profile"
+        ogImage="https://logos-psychotherapy.com/About%202.jpg.jpeg"
+      />
+
       {/* Top Navigation Bar with active About indicator (Dark Hero Theme) */}
       <Navbar currentPath="/about" logoSrc="/logoImage.png" theme="dark" />
 

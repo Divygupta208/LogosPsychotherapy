@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { SEO } from '../components/SEO'
 import { Navbar } from '../components/Navbar'
 import { TreatmentHero } from '../components/TreatmentHero'
 import { TreatmentIntroSection } from '../components/TreatmentIntroSection'
@@ -8,13 +9,15 @@ import { ContactCta } from '../components/ContactCta'
 import { Footer } from '../components/Footer'
 
 export const Treatment: React.FC = () => {
-  // Set page title for branding and SEO
-  useEffect(() => {
-    document.title = 'Treatment Areas | Mental Health Counseling | LOGOS Psychotherapy'
-  }, [])
-
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
+      <SEO
+        title="Mental Health Treatment NJ & FL | Logos Psychotherapy"
+        description="Mental health treatment for adults in New Jersey and Florida. Evidence-based therapy for trauma, grief, and related stress."
+        canonicalUrl="/treatment"
+        ogImage="https://logos-psychotherapy.com/Treatment%201.jpg.jpeg"
+      />
+
       {/* Top Navigation */}
       <Navbar currentPath="/treatment" logoSrc="/logoImage.png" theme="light" />
 
