@@ -92,27 +92,27 @@ export const EmdrModalityAreasSection: React.FC = () => {
       description:
         'Grief can include painful, stuck memories, such as the circumstances of a death. EMDR may help you process those memories so you can remember the person with less distress. It does not aim to make you "move on."',
     },
-    {
-      id: 'anxiety-depression',
-      title: 'EMDR for Anxiety and Depression',
-      icon: (
-        <svg
-          className="w-5 h-5 text-white"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.0"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M12 2C8.5 2 6 4.5 6 8c0 4 6 11 6 11s6-7 6-11c0-3.5-2.5-6-6-6z" />
-          <path d="M12 6v6" />
-          <path d="M9.5 9.5l5 0" />
-        </svg>
-      ),
-      description:
-        'Anxiety and depression often connect to earlier experiences, even when the link is not obvious. EMDR for anxiety may help when worry, fear, or physical tension is tied to specific memories or beliefs. EMDR for depression may be considered when low mood is connected to painful experiences, such as loss or ongoing criticism.',
-    },
+    // {
+    //   id: 'anxiety-depression',
+    //   title: 'EMDR for Anxiety and Depression',
+    //   icon: (
+    //     <svg
+    //       className="w-5 h-5 text-white"
+    //       viewBox="0 0 24 24"
+    //       fill="none"
+    //       stroke="currentColor"
+    //       strokeWidth="2.0"
+    //       strokeLinecap="round"
+    //       strokeLinejoin="round"
+    //     >
+    //       <path d="M12 2C8.5 2 6 4.5 6 8c0 4 6 11 6 11s6-7 6-11c0-3.5-2.5-6-6-6z" />
+    //       <path d="M12 6v6" />
+    //       <path d="M9.5 9.5l5 0" />
+    //     </svg>
+    //   ),
+    //   description:
+    //     'Anxiety and depression often connect to earlier experiences, even when the link is not obvious. EMDR for anxiety may help when worry, fear, or physical tension is tied to specific memories or beliefs. EMDR for depression may be considered when low mood is connected to painful experiences, such as loss or ongoing criticism.',
+    // },
   ]
 
   return (
@@ -168,7 +168,7 @@ export const EmdrModalityAreasSection: React.FC = () => {
         {/* Closing Note */}
         <div className="mt-12 sm:mt-14 pt-8 border-t border-slate-300/70 text-slate-700 text-[14.5px] sm:text-[15px] md:text-[15.5px] leading-[1.75] font-normal">
           <p>
-            My work also draws on attachment-based, somatic, and behavioral approaches, depending on your needs. You don&apos;t need a diagnosis to begin.
+            My work also draws on attachment-based, somatic, and behavioural approaches, depending on your needs. You don&apos;t need a diagnosis to begin.
           </p>
         </div>
       </div>

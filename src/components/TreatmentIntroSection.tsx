@@ -41,7 +41,7 @@ export const TreatmentIntroSection: React.FC<TreatmentIntroSectionProps> = ({
                 Psychotherapy treatment at Logos Psychotherapy starts with listening. In our first conversations, I want to understand what brought you in, what you&apos;ve already tried, and what you hope will change. From there, we build a plan around your goals instead of using a one-size-fits-all protocol.
               </p>
               <p>
-                My work draws on several evidence-based therapies, including EMDR, attachment-based approaches, somatic approaches, and behavior therapy. Which ones we use depends on what you&apos;re facing and what feels workable for you.
+                My work draws on several evidence-based therapies, including EMDR, attachment-based approaches, somatic approaches, and behavioural therapy. Which ones we use depends on what you&apos;re facing and what feels workable for you.
               </p>
               <p>
                 When trauma is part of the picture, we begin with safety and coping skills. Processing difficult memories comes later, once you feel prepared and at a pace you can manage.

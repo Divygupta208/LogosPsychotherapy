@@ -108,7 +108,7 @@ export const AboutMeSection: React.FC<AboutMeSectionProps> = ({
                 My Approach to Therapy
               </h2>
               <p className="text-slate-700 mb-5">
-                As a trauma therapist, I choose methods based on your needs and goals. My training includes EMDR therapy (an EMDRIA-certified, structured approach that helps the brain process distressing memories so they feel less overwhelming, without having to relive the past in detail), attachment-based approaches looking at how early relationships shape the way we connect with others today, somatic approaches paying attention to how stress and emotion show up in the body, and behavior therapy focusing on practical skills and changes in daily patterns for anxiety and depression. I don&apos;t use one method for everyone. We&apos;ll decide together what fits you best.
+                As a trauma therapist, I choose methods based on your needs and goals. My training includes EMDR therapy (an EMDRIA-certified, structured approach that helps the brain process distressing memories so they feel less overwhelming, without having to relive the past in detail), attachment-based approaches looking at how early relationships shape the way we connect with others today, somatic approaches paying attention to how stress and emotion show up in the body, and behavioural therapy focusing on practical skills and changes in daily patterns for anxiety and depression. I don&apos;t use one method for everyone. We&apos;ll decide together what fits you best.
               </p>
 
               {/* Action Links directly below the paragraph */}

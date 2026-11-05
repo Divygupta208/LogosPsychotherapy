@@ -9,7 +9,7 @@ export const Contact: React.FC = () => {
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
       <SEO
         title="Contact Logos Psychotherapy | Schedule Therapy"
-        description="Contact Logos Psychotherapy to schedule consultation or book a therapy appointment. online sessions in New Jersey and Florida."
+        description="Contact Logos Psychotherapy to schedule consultation or book a therapy appointment. online sessions in New Jersey, Florida and New York."
         canonicalUrl="/contact"
         ogImage="https://logos-psychotherapy.com/contact%201.jpg.jpeg"
       />
