@@ -100,7 +100,7 @@ export const TreatmentAreasSection: React.FC = () => {
               {areas.map((area) => (
                 <div
                   key={area.id}
-                  className="group border border-[#365975] p-6 sm:p-7 md:p-8 flex flex-col justify-between hover:bg-white/[0.04] hover:border-sky-300/50 transition-all duration-200"
+                  className="group border border-[#365975] p-6 sm:p-7 md:p-8 flex flex-col justify-start hover:bg-white/[0.04] hover:border-sky-300/50 transition-all duration-200"
                 >
                   {/* Card Header: Icon + Bold Title */}
                   <div className="flex items-center gap-3.5 mb-4">

@@ -49,7 +49,7 @@ export const HowTherapyWorksSection: React.FC = () => {
             </div>
 
             <p className="pt-2">
-              Online sessions can be a good fit if you have a busy schedule, or prefer to talk from a familiar space. Online therapy is available to adults located in Florida and New Jersey.
+              Online sessions can be a good fit if you have a busy schedule, or prefer to talk from a familiar space. Online therapy is available to adults located in Florida, New Jersey and New York.
             </p>
 
             <p className="pt-1 font-medium text-slate-800">

@@ -28,7 +28,7 @@ export const WhereISeeClientsSection: React.FC = () => {
 
           {/* Subtitle */}
           <p className="text-sm sm:text-base md:text-[17px] text-slate-700 font-light max-w-2xl mx-auto mb-10 sm:mb-12">
-            I offer virtual therapy in both New Jersey and Florida.
+            I offer virtual therapy in New Jersey, Florida and New York.
           </p>
 
           {/* 3 Structured Location & Session Cards */}
@@ -65,7 +65,7 @@ export const WhereISeeClientsSection: React.FC = () => {
                 Online Therapy
               </span>
               <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">
-                Secure video sessions for clients located in New Jersey or Florida.
+                Secure video sessions for clients located in New Jersey, Florida or New York.
               </p>
             </div>
           </div>

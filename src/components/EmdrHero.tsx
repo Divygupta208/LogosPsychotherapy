@@ -43,13 +43,13 @@ export const EmdrHero: React.FC<EmdrHeroProps> = ({
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-light text-white tracking-tight leading-[1.18] drop-shadow-md mb-5 sm:mb-6">
             EMDR Therapy for{' '}
             <span className="font-script text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] text-[#f5ebd7] font-normal block sm:inline pl-1">
-              Trauma, PTSD, and Anxiety
+              Trauma and PTSD
             </span>
           </h1>
 
           {/* Narrative Paragraph */}
           <p className="text-white/90 text-sm sm:text-base md:text-[1.0625rem] font-light leading-relaxed max-w-2xl mb-8 sm:mb-10 drop-shadow-sm">
-            Eye Movement Desensitization and Reprocessing (EMDR) is a structured therapy that helps people process distressing memories so they feel less overwhelming. At Logos Psychotherapy, I offer virtual EMDR therapy to adults in New Jersey and Florida.
+            Eye Movement Desensitization and Reprocessing (EMDR) is a structured therapy that helps people process distressing memories so they feel less overwhelming. At Logos Psychotherapy, I offer virtual EMDR therapy to adults in New Jersey, Florida and New York.
           </p>
 
           {/* Underlined CTA link pointing to /contact */}

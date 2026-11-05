@@ -38,12 +38,12 @@ export const TreatmentHero: React.FC<TreatmentHeroProps> = ({
             <span className="font-script text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] text-[#f5ebd7] font-normal block sm:inline pl-1">
               Therapy Services
             </span>{' '}
-            in New Jersey and Florida
+            in New Jersey, Florida and New York
           </h1>
 
           {/* Narrative Paragraph */}
           <p className="text-white/90 text-sm sm:text-base md:text-[1.0625rem] font-light leading-relaxed max-w-2xl mb-8 sm:mb-10 drop-shadow-sm">
-            Logos Psychotherapy offers online mental health treatment for adults in New Jersey and Florida. If anxiety, trauma, stress, or painful emotions have been hard to carry, therapy gives you a place to understand what is happening and learn ways to respond that fit your life. Treatment is personalized, collaborative, and paced with you. Many people find that therapy helps them feel steadier and cope with difficult emotions more confidently, though results vary from person to person. You don&apos;t need a diagnosis to begin.
+            Logos Psychotherapy offers online mental health treatment for adults in New Jersey, Florida and New York. If anxiety, trauma, stress, or painful emotions have been hard to carry, therapy gives you a place to understand what is happening and learn ways to respond that fit your life. Treatment is personalized, collaborative, and paced with you.
           </p>
 
           {/* Underlined CTA link pointing to /contact */}
