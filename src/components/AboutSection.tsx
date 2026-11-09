@@ -60,7 +60,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             {/* Intro Paragraphs */}
             <div className="space-y-4 sm:space-y-5 text-slate-700 text-sm sm:text-[0.9375rem] md:text-base leading-relaxed font-normal mb-7 sm:mb-8">
               <p>
-                At Logos Psychotherapy, therapy is an invitation to pause, to breathe, to reconnect with what truly matters. When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention. Logos Psychotherapy is a Florida-based practice offering psychotherapy online to adults in Florida, New Jersey, and New York. The focus is on understanding what you&apos;re going through and finding steadier ground. Psychotherapy help you understand your thoughts, emotions, and patterns, and build practical ways to cope.
+                At Logos Psychotherapy, therapy is an invitation to pause, to breathe, to reconnect with what truly matters. When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention. Logos Psychotherapy is a Florida-based practice offering psychotherapy online to adults in Florida, New Jersey, and New York. The focus is on processing what happened so the past stops shaping your relationships, your reactions, and how safe you feel. 
               </p>
 
               <p>

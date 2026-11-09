@@ -26,7 +26,7 @@ export const Home: React.FC = () => {
         {/* Section 1: Hero */}
         <Hero
           backgroundImage="/homepagebg.jpg"
-          headline="Psychotherapy for Trauma, Grief, and Related Stress"
+          headline="Online EMDR therapy for Florida adults, healing from PTSD childhood abuse and relational trauma."
           subtitle="When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention."
           ctaText="Schedule a Consultation"
           ctaHref="/contact"
