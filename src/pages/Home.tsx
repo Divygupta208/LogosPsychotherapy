@@ -13,8 +13,8 @@ export const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
       <SEO
-        title="Online Psychotherapy in Florida & NJ | Logos Psychotherapy"
-        description="Psychotherapy in Miami, FL and online in Florida and New Jersey. Individual therapy with an EMDRIA certified therapist for trauma, grief, and related stress."
+        title="Online Psychotherapy in New Jersey, Florida and New York | Logos Psychotherapy"
+        description="Psychotherapy in Miami, FL and online in Florida, New Jersey and New York. Individual therapy with an EMDRIA certified therapist for trauma, grief, and related stress."
         canonicalUrl="/"
       />
 
@@ -26,8 +26,8 @@ export const Home: React.FC = () => {
         {/* Section 1: Hero */}
         <Hero
           backgroundImage="/homepagebg.jpg"
-          headline="Psychotherapy for Trauma, Grief, and Related Stress"
-          subtitle="Individual therapy with a licensed therapist who listens first and understands your unique experience. Online therapy sessions are available in New Jersey and Florida. Get a safe, supportive space to work through the experiences that have been difficult to carry alone."
+          headline="Online EMDR therapy for Florida adults, healing from PTSD childhood abuse and relational trauma."
+          subtitle="When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention."
           ctaText="Schedule a Consultation"
           ctaHref="/contact"
           secondaryLinkText="Learn about EMDR therapy"

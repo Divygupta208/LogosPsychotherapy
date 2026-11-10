@@ -12,8 +12,8 @@ export const Treatment: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
       <SEO
-        title="Mental Health Treatment NJ & FL | Logos Psychotherapy"
-        description="Mental health treatment for adults in New Jersey and Florida. Evidence-based therapy for trauma, grief, and related stress."
+        title="Mental Health Treatment NJ, FL & NY | Logos Psychotherapy"
+        description="Mental health treatment for adults in New Jersey, Florida and New York. Evidence-based therapy for trauma, grief, and related stress."
         canonicalUrl="/treatment"
         ogImage="https://logos-psychotherapy.com/Treatment%201.jpg.jpeg"
       />

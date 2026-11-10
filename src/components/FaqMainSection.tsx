@@ -25,10 +25,10 @@ export const FaqMainSection: React.FC<FaqMainSectionProps> = ({
   const faqItems: FaqItem[] = [
     {
       id: 'what-is-psychotherapy',
-      question: 'WHAT IS PSYCHOTHERAPY AND HOW DOES IT WORK?',
+      question: 'What happens in first session?',
       answer: (
         <p>
-          Psychotherapy, often called talk therapy, is a structured way of working with a trained mental health professional. We talk through what you&apos;re dealing with, look at the thoughts, emotions, and patterns involved, and build practical ways to cope. The methods depend on your concerns and goals.
+          We talk about what brought you in and what you hope to change. You decide how much to share, and we go at your pace. There is no pressure to describe painful events before you are ready. The free consultation is a chance to talk through your history and goals. If EMDR does not seem like the right fit, I will tell you and point you toward other options.
         </p>
       ),
     },
@@ -37,7 +37,7 @@ export const FaqMainSection: React.FC<FaqMainSectionProps> = ({
       question: 'HOW MUCH DOES THERAPY COST?',
       answer: (
         <p>
-          Logos Psychotherapy is a private-pay practice. To learn more about fees, please contact Logos Psychotherapy at{' '}
+          Logos Psychotherapy is a private-pay practice. Individual sessions are $225 a session. To learn more about fees, please contact Logos Psychotherapy at{' '}
           <a
             href="tel:6092254016"
             className="text-[#2f788c] underline hover:text-[#1d5766] transition-colors font-medium"
@@ -75,22 +75,22 @@ export const FaqMainSection: React.FC<FaqMainSectionProps> = ({
     },
     {
       id: 'session-length',
-      question: 'HOW LONG ARE THERAPY SESSIONS?',
+      question: 'How long are sessions, and how often do we meet?',
       answer: (
         <p>
-          Therapy sessions typically last 45 to 60 minutes. Session length is based on your needs and what feels most supportive for you.
+          Sessions are 60 minutes. Most clients begin weekly, and we adjust as you progress.
         </p>
       ),
     },
-    {
-      id: 'first-session',
-      question: 'WHAT HAPPENS IN THE FIRST THERAPY SESSION?',
-      answer: (
-        <p>
-          We talk about what brought you in, what you&apos;ve already tried, and what you hope will change. You can share as much or as little as you like, and ask me anything about how I work. Then we set goals based on what matters to you.
-        </p>
-      ),
-    },
+    // {
+    //   id: 'first-session',
+    //   question: 'WHAT HAPPENS IN THE FIRST THERAPY SESSION?',
+    //   answer: (
+    //     <p>
+    //       We talk about what brought you in, what you&apos;ve already tried, and what you hope will change. You can share as much or as little as you like, and ask me anything about how I work. Then we set goals based on what matters to you.
+    //     </p>
+    //   ),
+    // },
   ]
 
   return (

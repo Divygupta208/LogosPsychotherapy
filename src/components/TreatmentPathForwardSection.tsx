@@ -99,7 +99,7 @@ export const TreatmentPathForwardSection: React.FC<TreatmentPathForwardSectionPr
     {
       title: 'Flexible Access',
       description:
-        'Virtual sessions in New Jersey and Florida for adults located in either state.',
+        'Virtual sessions in New Jersey, Florida and New York for adults located in any of these states.',
       icon: (
         <svg
           className="w-5 h-5 text-[#2f788c]"

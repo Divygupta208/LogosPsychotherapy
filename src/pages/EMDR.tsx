@@ -11,8 +11,8 @@ export const EMDR: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
       <SEO
-        title="EMDR Therapy in New Jersey & Florida | Logos Psychotherapy"
-        description="EMDR therapy for trauma, PTSD, and anxiety with an EMDRIA Certified Therapist™. Schedule a consultation."
+        title="EMDR Therapy in New Jersey, Florida & New York | Logos Psychotherapy"
+        description="EMDR therapy for trauma and PTSD with an EMDRIA Certified Therapist™. Schedule a consultation."
         canonicalUrl="/emdr-therapy"
         ogImage="https://logos-psychotherapy.com/EMDR%201.jpg.jpeg"
       />

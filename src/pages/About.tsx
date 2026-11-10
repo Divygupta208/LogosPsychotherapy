@@ -12,7 +12,7 @@ export const About: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#f5f3ee] text-slate-800 flex flex-col selection:bg-[#0e5c6e] selection:text-white">
       <SEO
-        title="Psychotherapist in New Jersey & Florida | Logos Psychotherapy"
+        title="Psychotherapist in New Jersey, Florida & New York | Logos Psychotherapy"
         description="Meet Moussia Zaklikovsky, LCSW, an EMDRIA Certified Therapist and licensed psychotherapist in New Jersey, Florida and New York, offering online therapy."
         canonicalUrl="/about"
         ogType="profile"

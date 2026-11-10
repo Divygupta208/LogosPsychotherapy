@@ -14,8 +14,8 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({
   backgroundImage = '/homepagebg.jpg',
-  headline = 'Psychotherapy for Trauma, Grief, and Related Stress',
-  subtitle = 'Individual therapy with a licensed therapist who listens first and understands your unique experience. Online therapy sessions are available in New Jersey and Florida. Get a safe, supportive space to work through the experiences that have been difficult to carry alone.',
+  headline = 'Online EMDR therapy for Florida adults, healing from PTSD childhood abuse and relational trauma.',
+  subtitle = 'When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention.',
   ctaText = 'Schedule a Consultation',
   ctaHref = '/contact',
   secondaryLinkText = 'Learn about EMDR therapy',

@@ -68,7 +68,7 @@ export const ContactHeroSection: React.FC<ContactHeroSectionProps> = ({
 
             {/* Explanatory Paragraph */}
             <p className="text-white/95 text-xs sm:text-[13.5px] md:text-[14.5px] leading-relaxed font-light max-w-xl mb-8 sm:mb-10 drop-shadow-sm">
-              Connection starts with intention. If you&apos;re ready to explore support, ask questions, or take the next step, Logos Psychotherapy is here. Searching for a therapist near you? Reach out to schedule therapy or book a therapy appointment. Online sessions are available in Florida and New Jersey.
+              Connection starts with intention. If you&apos;re ready to explore support, ask questions, or take the next step, Logos Psychotherapy is here. Searching for a therapist near you? Reach out to schedule therapy or book a therapy appointment. Online sessions are available in Florida, New Jersey and New York.
             </p>
 
             {/* Subtle Divider Line */}

@@ -26,7 +26,7 @@ export const TreatmentAreasSection: React.FC = () => {
     },
     {
       id: 'anxiety-depression',
-      title: 'Anxiety and Depression Treatment',
+      title: 'Child abuse',
       icon: (
         <svg className="w-5 h-5 text-sky-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.0" strokeLinecap="round" strokeLinejoin="round">
           {/* Calming mental waves / serenity tree leaf */}
@@ -36,7 +36,7 @@ export const TreatmentAreasSection: React.FC = () => {
         </svg>
       ),
       description:
-        'Therapy for constant worry, racing thoughts, low mood, fatigue, and loss of interest. We work on understanding what\'s driving these experiences and build practical skills to ease them.',
+        'Adults who experienced abuse or neglect growing up, whether from a parent, caregiver, or another adult, and who are still feeling its effects. You do not need to have a clear memory of everything, and you do not need to be sure that what happened "counts".',
     },
     {
       id: 'grief-loss',
@@ -100,7 +100,7 @@ export const TreatmentAreasSection: React.FC = () => {
               {areas.map((area) => (
                 <div
                   key={area.id}
-                  className="group border border-[#365975] p-6 sm:p-7 md:p-8 flex flex-col justify-between hover:bg-white/[0.04] hover:border-sky-300/50 transition-all duration-200"
+                  className="group border border-[#365975] p-6 sm:p-7 md:p-8 flex flex-col justify-start hover:bg-white/[0.04] hover:border-sky-300/50 transition-all duration-200"
                 >
                   {/* Card Header: Icon + Bold Title */}
                   <div className="flex items-center gap-3.5 mb-4">

@@ -94,22 +94,45 @@ export const AboutMeSection: React.FC<AboutMeSectionProps> = ({
           <div className="lg:col-span-7 space-y-8 sm:space-y-10 text-[14px] sm:text-[14.5px] md:text-[15px] leading-[1.75] text-slate-800 font-normal">
             {/* Subsection 1: Who I Work With */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-light text-[#2f788c] tracking-tight leading-snug mb-3">
-                Who I Work With
-              </h2>
+
               <p className="text-slate-700">
-                I&apos;m an experienced therapist for people facing a range of emotional health concerns. Many of the people I see are coping with trauma and the lasting effects of distressing experiences, anxiety including constant worry and feeling on edge, depression and low mood, relationship patterns that feel painful or hard to change, as well as life challenges such as transitions, loss, and periods of uncertainty. You don&apos;t need a diagnosis to start therapy. If something is weighing on you, that is reason enough to talk with someone.
+                I am a Licensed Clinical Social Worker dedicated to helping individuals move toward emotional wellness and a more meaningful life. My work is grounded in the belief that while pain is an inevitable part of being human, suffering is shaped by how we experience, interpret, and carry that pain.
+              </p>
+             <br />
+              <p className="text-slate-700">
+                The name Logos comes from the Greek word for meaning and is inspired by Viktor Frankl’s understanding that meaning can lessen the suffering that accompanies unavoidable hardship. Therapy, to me, is not about erasing pain; it is about building resilience, deepening understanding, and creating a life that feels purposeful even in the presence of difficulty.
+              </p>
+              <br />
+              <p className="text-slate-700">
+                I am EMDRIA certified and specialize in trauma-focused work. In EMDR therapy, we can work together to reduce the suffering those experiences continue to cause. By helping the nervous system process and integrate trauma, healing becomes possible without reliving the past.
+              </p>
+              <br />
+              <p className="text-slate-700">
+                Trained in early childhood attachment-based and somatic approaches as well as behavior therapy, I have extensive experience working with individuals navigating anxiety, depression, and relational challenges. My approach integrates formal clinical training with a deep personal understanding of emotional resistance and pain. It was this dual perspective that drew me to trauma work, where I now walk alongside others on their journeys.
+              </p>
+              <br />
+              <p className="text-slate-700">
+                At Logos Psychotherapy, therapy is a collaborative space to explore your values, strengthen resilience, and create meaning, even when life feels uncertain or heavy.
               </p>
             </div>
 
             {/* Subsection 2: My Approach to Therapy */}
             <div>
-              <h2 className="text-2xl sm:text-3xl font-light text-[#2f788c] tracking-tight leading-snug mb-3">
-                My Approach to Therapy
+             <h2 className="text-2xl sm:text-3xl font-light text-[#2f788c] tracking-tight leading-snug mb-3">
+               Who this is for
               </h2>
-              <p className="text-slate-700 mb-5">
-                As a trauma therapist, I choose methods based on your needs and goals. My training includes EMDR therapy (an EMDRIA-certified, structured approach that helps the brain process distressing memories so they feel less overwhelming, without having to relive the past in detail), attachment-based approaches looking at how early relationships shape the way we connect with others today, somatic approaches paying attention to how stress and emotion show up in the body, and behavior therapy focusing on practical skills and changes in daily patterns for anxiety and depression. I don&apos;t use one method for everyone. We&apos;ll decide together what fits you best.
+              <p className="text-slate-700">
+                You may look like you have it together. You work, you show up for the people in your life, you do what needs doing. And still, the past follows you: relationships that feel unsafe or repeat old patterns, anxiety that has no clear cause, a body that stays on alert, or a quiet sense that you are never quite okay.
               </p>
+              <br />
+               <p className="text-slate-700">
+                If you grew up with abuse or neglect, this is not a flaw in you. It is how your nervous system learned to cope.
+              </p>
+              <br />
+               <p className="text-slate-700">
+                Maybe you have already done talk therapy and understand your story well, yet it still feels the same inside. That is often where EMDR can help.
+              </p>
+              <br />
 
               {/* Action Links directly below the paragraph */}
               <div className="flex flex-wrap items-center gap-5 sm:gap-7 pt-1">
