@@ -14,7 +14,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({
   backgroundImage = '/homepagebg.jpg',
-  headline = 'Online EMDR therapy for Florida adults, healing from PTSD childhood abuse and relational trauma.',
+  headline = 'Online EMDR therapy for Florida adults, healing from PTSD, childhood abuse, and relational trauma.',
   subtitle = 'When life feels uncertain, overwhelming, or detached from meaning, therapy can become a space to reflect, gain clarity, and move forward with intention.',
   ctaText = 'Schedule a Consultation',
   ctaHref = '/contact',
