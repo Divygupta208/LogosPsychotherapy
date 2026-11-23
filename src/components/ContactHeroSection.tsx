@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 
+const WEB3FORMS_ACCESS_KEY = 'f1395468-c2c5-4d78-92be-0e5efb2cb0c6'
+
 interface ContactHeroSectionProps {
   backgroundImage?: string
   stonesImage?: string
@@ -18,14 +20,49 @@ export const ContactHeroSection: React.FC<ContactHeroSectionProps> = ({
   })
   const [captchaChecked, setCaptchaChecked] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!captchaChecked) {
       alert('Please complete the verification checkbox.')
       return
     }
-    setSubmitted(true)
+
+    setSending(true)
+    setError('')
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: 'New contact inquiry from Logos Psychotherapy website',
+          from_name: 'Logos Psychotherapy Website',
+          name: formData.fullName,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.comments,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (data.success) {
+        setSubmitted(true)
+      } else {
+        setError(data.message || 'Something went wrong. Please try again.')
+      }
+    } catch {
+      setError('Unable to send your message. Please check your connection and try again.')
+    } finally {
+      setSending(false)
+    }
   }
 
   return (
@@ -185,10 +222,16 @@ export const ContactHeroSection: React.FC<ContactHeroSectionProps> = ({
                 <div className="pt-3">
                   <button
                     type="submit"
-                    className="text-xs sm:text-sm tracking-[0.24em] uppercase font-semibold text-[#dfc9a7] hover:text-white pb-1.5 border-b border-[#dfc9a7] hover:border-white transition-all cursor-pointer"
+                    disabled={sending}
+                    className="text-xs sm:text-sm tracking-[0.24em] uppercase font-semibold text-[#dfc9a7] hover:text-white pb-1.5 border-b border-[#dfc9a7] hover:border-white transition-all cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
                   >
-                    SUBMIT
+                    {sending ? 'SENDING...' : 'SUBMIT'}
                   </button>
+                  {error && (
+                    <p className="mt-4 text-sm text-red-300" role="alert">
+                      {error}
+                    </p>
+                  )}
                 </div>
               </form>
             )}
